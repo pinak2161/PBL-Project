@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+.header
+{
+    background-color: #172337;
+    width:100%;
+    height:70px;
+    padding:12px;
+    padding-left:70px;
+    align-items: center;
+    display:flex;
+    position:relative;
+    
+}
+.logo
+{
+    
+    width:40px;
+    height:40px;
+    padding-top:20px;
+    color:white;
+    background-image: url(logo.svg);
+    background-repeat: no-repeat;
+    background-size:cover; 
+}
+.heading
+{
+    color:white;
+    margin-left:15px;
+    margin-top:5px;
+    text-shadow:0px 0px 3px black;
+    letter-spacing:1px;
+}
+
+
+.nav-item
+{
+    display:flex;
+    list-style-type:none;
+    position:absolute;
+    text-align: center;
+    margin-left:700px;
+    letter-spacing: 1px;
+
+}
+.item1,.item2,.item3
+{
+    margin: 0px 0px;
+    margin-top:-20px;
+    color:white;
+    padding:10px;
+    border-radius:4px;
+    box-shadow:0px opx 10px 5px grey;
+    text-shadow:0px 0px 5px black;
+
+}
+
+.item1:hover{
+    color:#FFCA00;
+    background:#00BFFF;
+    box-shadow:0px opx 10px 5px grey;
+    
+}
+
+.item2:hover
+{
+    color:#FFCA00;
+    background:#00BFFF;
+    box-shadow:0px opx 10px 5px grey;
+}
+
+.item3:hover{
+    color:#FFCA00;
+    background:#00BFFF;
+    box-shadow:0px opx 10px 5px grey;
+}
+
+.main 
+{
+    width: 1520px;
+    height:700px;
+    display:flex;
+    box-sizing: border-box;
+
+}
+.text
+{
+    width:900px;
+    height:700px;
+    background:white;
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+    justify-content: center;   
+}
+
+.text1
+{
+    color:#00BFFF;
+    margin-left:100px;
+}
+
+.button
+{
+    width:200px;
+    height:50px;
+    margin-left:300px;
+    margin-top:20px;
+    border-radius: 30px;
+    background: #00BFFF;
+    font-size: 20px;
+    border:none;
+    box-shadow: 0px 0px 3px 2px black;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+
+}
+
+.button:hover
+{
+    background:rgb(246, 240, 240);
+    color:#00BFFF;
+    /* width:220px;
+    height:60px; */
+    transform:scale(1.13);
+}
+.qrr
+{
+    color:black;
+}
+
+.qrr:hover{
+    color:#00BFFF;
+}
+
+.para
+{
+    margin-left:100px;
+    font-size: bolder;
+}
+
+.qr
+{
+    width:600px;
+    height:700px;
+    margin-top:170px;
+    margin-left:200px; 
+    background-image: url(ye.svg);
+    background-repeat: no-repeat; 
+     padding-left:500px;
+    padding-top:300px; 
+     box-sizing: border-box; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    height:30vh;
+    background-color:#172337;
+    }
+
+.footer-upper{
+    color:white;
+    display:flex;
+    height:20vh;
+    justify-content: center;
+    align-items: center;
+    font-size:14px;
+    letter-spacing:1px;
+}
+
+.footer-lower
+{
+    display:flex;
+    height:6vh;
+    margin:2vh;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size:14px;
+    word-spacing:2px;
+    letter-spacing:0.5px;
+
+}
+a
+{
+    text-decoration: none;
+    color:white;
+}
+
+hr
+{
+    border-top:0px;
+}
+
+.mycart
+{
+    color:#00BFFF;
+}
+
+
+.material-icons
+{
+    color:#00BFFF;
+    size:8px;
+}
+
+.material-icons:hover
+{
+    color:#00BFFF;
+}
+
+.footer-link
+{
+    color:white;
+
+}
+.footer-link:hover{
+    color:#00BFFF;
+}
+
+

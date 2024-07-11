@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../../../.."
+		},
+		{
+			"path": "../../C++"
+		},
+		{
+			"path": "../../QR CODE GENERATOR"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "satya",
+		"files.associations": {
+			"ostream": "cpp"
+		}
+	}
+}
